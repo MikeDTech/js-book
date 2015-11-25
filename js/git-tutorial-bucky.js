@@ -27,6 +27,7 @@ git push - pushes changes to project
 git diff - compares working area to online repository
 git diff --staged  - compares staging area (add . files) to online repository
 
+git commit -am  - allows you to skip staging area (don't need to add)
 
  */
 //#########################################################################
