@@ -29,6 +29,17 @@ git diff --staged  - compares staging area (add . files) to online repository
 
 git commit -am  - allows you to skip staging area (don't need to add)
 
+git checkout -- filename.js    - downloads file from repository to working directory
+git RESET filename.js  -   how to unstage a file
+
+git remote add nickname https://github.com/MikeDTech/repo.git
+
+
+git push  - pushing files to online server
+git fetch is getting them from the server
+
+whatever folder your under...
+git push -u nickname master -- writes that folder to online repo
  */
 //#########################################################################
 //NOTES
